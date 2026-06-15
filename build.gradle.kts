@@ -21,6 +21,12 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
+    implementation("net.dv8tion:JDA:6.4.1") // TODO: try to exclude audio deps
+    implementation("org.json:json:20260522")
+    implementation("org.apache.httpcomponents:httpclient:4.5.14")
+    implementation("ch.qos.logback:logback-classic:1.5.34")
+    implementation("com.google.code.findbugs:jsr305:3.0.2")
+    testImplementation("com.google.code.findbugs:jsr305:3.0.2")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

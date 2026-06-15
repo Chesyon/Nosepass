@@ -16,3 +16,5 @@ gradle-app.setting
 
 # Kotlin plugin data
 .kotlin
+
+.vscode
