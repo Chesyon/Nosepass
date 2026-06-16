@@ -20,7 +20,7 @@ jobs:
     with:
       output: image
       push: ${{ github.event_name != 'pull_request' }}
-      meta-images: name/app
+      meta-images: ghcr.io/chesyon/nosepass
     secrets:
       registry-auths: |
         - registry: ghcr.io
